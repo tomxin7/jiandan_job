@@ -69,7 +69,7 @@ if __name__ == '__main__':
 
 地区|学校|学校简称|就业信息网
 --|:--:|:--:|:--:
-北京|清华大学|TU|<a href="http://career.cic.tsinghua.edu.cn/xsglxt/f/jyxt/anony/xxfb">就业信息网</a>
+北京|清华大学|TU|<a href="http://career.cic.tsinghua.edu.cn/xsglxt/f/jyxt/anony/xxfb"  target="_blank">点我跳转</a>
 北京|北京大学|PKU|https://scc.pku.edu.cn/home!recruitList.action?category=1
 北京|中国人民大学|RUC|http://career.ruc.edu.cn/cms/employment/
 北京|中国农业大学|CAU|http://scc.cau.edu.cn/recruitmentinfo.html/?type=zhaopin
