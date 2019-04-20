@@ -53,10 +53,8 @@ def Function(city,school,function):
         print(school + "开始爬取")
         function()
         print(school + "爬取成功")
-        tomxin.setMysql.setErrToMysql(city,school,"正常",1)
     except Exception as err:
         print("爬取错误：" + str(err))
-        tomxin.setMysql.setErrToMysql(city,school, str(err),0)
 
 #休息规则
 def sleepTime():
