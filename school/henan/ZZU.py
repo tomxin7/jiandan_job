@@ -1,6 +1,6 @@
 
 import tomxin.getInfo
-import pymysql
+
 import datetime
 
 
@@ -26,6 +26,5 @@ def getZZU():
         values = { "cand01": u}
         r_content = tomxin.getInfo.get_info_post_data(c_url, values)
         r_content = tomxin.getInfo.get_content(r_content, 'cand04":"', '","')
-        r_content=pymysql.escape_string(str(r_content[0]))
         print(r_title + "\n" + r_url)
 

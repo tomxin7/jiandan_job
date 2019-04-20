@@ -1,6 +1,6 @@
 
 import tomxin.getInfo
-import pymysql
+
 
 
 def getTJU():
@@ -27,7 +27,6 @@ def getTJU():
         r_content = r_content.encode('utf-8').decode('unicode_escape')
         r_content = r_content.encode('utf-8').decode('unicode_escape')#这里需要两次转换
         r_content=r_content.replace('\\','')
-        r_content = pymysql.escape_string(r_content)#转换为可以存储在数据库的格式
 
         print(r_title + "\n" + r_url)
 

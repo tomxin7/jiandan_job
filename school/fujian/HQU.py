@@ -1,6 +1,6 @@
 from urllib import request
 import re
-import pymysql
+
 
 import tomxin.getInfo
 import _thread
@@ -21,6 +21,5 @@ def getHQU():
         r_trait = "HQU" + u[-9:-4]
         r_url="http://bys.hqu.edu.cn/"+u
         r_content = tomxin.getInfo.get_url_content(r_url, "utf-8", 'artibody">', '<div class="viewBottomTools">')
-        if r_content.find("下载免费小巧") == -1:#这是筛选没有福昕的内容才插入数据库
-            tomxin.setMysql.setWorkhub(r_city,r_school,r_title,r_content,r_trait,r_url)
+
         i += 1

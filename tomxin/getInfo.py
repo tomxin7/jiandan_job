@@ -1,8 +1,6 @@
 from urllib import request
 import urllib
 import re
-import pymysql
-
 import socket
 import time
 import ssl
@@ -39,14 +37,12 @@ def get_content(info,reStart,reEnd):
 def get_url_content(url,encoding,reStart,reEnd):
     html = get_source(url,encoding)
     content=get_content(html, reStart, reEnd)
-    r_content = pymysql.escape_string(str(content[0]))
-    return r_content
+    return str(content[0])
 #会发送浏览器信息
 def get_url_content_head(url,reStart,reEnd):
     html = get_source_head(url)
     content = get_content(html, reStart, reEnd)
-    r_content = pymysql.escape_string(str(content[0]))
-    return r_content
+    return str(content[0])
 
 def Function(city,school,function):
     try:

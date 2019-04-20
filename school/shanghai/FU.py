@@ -1,6 +1,6 @@
 from urllib import request
 import re
-import pymysql
+
 
 import tomxin.getInfo
 

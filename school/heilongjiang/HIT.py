@@ -1,6 +1,6 @@
 
 import tomxin.getInfo
-import pymysql
+
 
 def getHIT():
 #大学名称
@@ -23,6 +23,5 @@ def getHIT():
         r_content = tomxin.getInfo.get_info_post_json_data(url, values)
         r_content = tomxin.getInfo.get_content(r_content,'ZWYQ":"','",.+?ZPXXID')
         r_content = r_content[0].replace('\\', '')
-        r_content=pymysql.escape_string(str(r_content))
         print(r_title + "\n" + r_url)
 

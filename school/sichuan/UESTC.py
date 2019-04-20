@@ -1,6 +1,6 @@
 
 import tomxin.getInfo
-import pymysql
+
 
 def getUESTC():
 #电子科技大学
@@ -24,6 +24,5 @@ def getUESTC():
         r_content=r_content.encode('utf-8').decode('unicode_escape')#这里获得详情页的内容
         r_content = tomxin.getInfo.get_content(r_content, 'rec_content":"', '"')
         r_content = r_content[0].replace('\\', '')
-        r_content=pymysql.escape_string(str(r_content))
         print(r_title + "\n" + r_url)
 
