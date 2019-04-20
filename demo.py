@@ -2,7 +2,7 @@
 import tomxin.getInfo
 
 ''''
-开发前请确保qq群是断开连接的
+快速开发专属你的校招爬虫
 '''
 #def getUNAME():
 #大学名称
