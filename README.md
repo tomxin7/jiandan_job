@@ -41,7 +41,7 @@ https://www.python.org/getit/
 
 ##### 2、获取源码
 ```
-git clone https://github.com/tomxin7/DouYinFaceTech
+git clone https://github.com/tomxin7/jiandan_job.git
 ```
 ##### 3、清华大学为例，直接运行main即可得到对应校招信息
 ```
