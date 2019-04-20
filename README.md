@@ -67,11 +67,11 @@ if __name__ == '__main__':
 
 ## 已收录高校
 
-姓名|技能|排行
---|:--:|--:
-刘备|哭|大哥
-关羽|打|二哥
-张飞|骂|三弟
+地区|学校|学校简称|就业信息网
+--|:--:|:--:|:--:
+北京|清华大学|TU|http://career.cic.tsinghua.edu.cn/xsglxt/f/jyxt/anony/xxfb
+北京|北京大学|PKU|https://scc.pku.edu.cn/home!recruitList.action?category=1
+
 
 ## 更多好玩的
 
