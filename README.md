@@ -41,7 +41,11 @@ https://www.python.org/getit/
 
 ##### 2、获取源码
 ```
-git clone https://github.com/tomxin7/jiandan_job.git
+牛客网git源
+git clone https://git.nowcoder.com/8161485/jiandan_job.git
+
+github源
+git clone https://github.com/tomxin7/DouYinFaceTech
 ```
 ##### 3、清华大学为例，直接运行main即可得到对应校招信息
 ```
@@ -169,9 +173,8 @@ http://jiandan.live/
 邮箱：admin@tomxin.cn<br>
 个人主页：http://tomxin.cn
 
-关注公众号：程序员的小浪漫，爱上简单的生活
 
-![mark](http://qiniu.tomxin.cn/blog/180521/Echm6dehec.jpg?imageslim)
+![mark](http://qiniu.tomxin.cn/181043_76e4d5b8_87650.png)
 
 
 
